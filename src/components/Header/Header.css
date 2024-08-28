@@ -1,0 +1,63 @@
+.header{
+    height: 34vw;
+    margin: 30px auto;
+    background: url('../../../public/header_img.png') no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.heder-contacst{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    align-items: start;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vh;
+    animation: feadIn 3s;
+}
+.heder-contacst h2{
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw,22px);
+}
+.heder-contacst p{
+    color: white;
+    font-size: 1vw;
+}
+.heder-contacst button{
+    border: none;
+    color: #747474;
+    font-size: 1vw;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    border-radius: 50px;
+}
+@media (max-width:1050px){
+    .header{
+        height: 38vw;
+    }
+    .heder-contacst{
+        max-width: 45%;
+    }
+}
+@media (max-width:1050px){
+    .header{
+        height: 38vw;
+    }
+    .heder-contacst{
+        max-width: 45%;
+    }
+}
+@media (max-width:1050px){
+    .heder-contacst{
+        max-width: 55%;
+    }
+    .heder-contacst p{
+        display: none;
+    }
+    .heder-contacst button{
+        padding: 2vw 4vw;
+        
+    }
+}
